@@ -1,0 +1,62 @@
+package java;
+public class phongmay;
+private string maphong;
+private string tenphong;
+private int somay;
+private string trangthai;
+private string ghichu;
+
+public phongmay() {
+
+    }
+
+    public phongmay(string maphong, string tenphong, int somay, string trangthai, string ghichu) {
+        this.maphong = maphong;
+        this.tenphong = tenphong;
+        this.somay = somay;
+        this.trangthai = trangthai;
+        this.ghichu = ghichu;
+    }
+
+    public string getmaphong() {
+        return maphong;
+    }
+
+    public void setmaphong(String maphong) {
+        this.maphong = maphong;
+    }
+
+    public string gettenphong() {
+        return tenphong;
+    }
+
+    public void settenphong(String tenphong) {
+        this.tenphong = tenphong;
+    }
+
+    public int getsomay() {
+        return somay;
+    }
+
+    public void setsomay(int somay) {
+        this.somay = somay;
+    }
+
+    public string gettrangthai() {
+        return trangthai;
+    }
+
+    public void settrangthai(String trangthai) {
+        this.trangthai = trangthai;
+    }
+
+    public string getghichu() {
+        return ghichu;
+    }
+
+public void setghichu(String ghichu){
+    this.ghichu = ghichu;
+}
+public String toString(){
+    return "maPhong{" + "tenPhong=" + tenPhong + ", trangThai='" + trangThai + ",ghiChu='" + ghiChu +",soMay='" + soMay +'}';
+}
